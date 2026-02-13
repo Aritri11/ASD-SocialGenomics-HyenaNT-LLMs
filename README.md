@@ -1,19 +1,19 @@
 # ASD-SocialGenomics-HyenaNT-LLMs
 
-Probing and fine-tuning large foundation LLMs—HyenaDNA/Hyena Transformers and Nucleotide Transformers—to model the genomics of social interaction in Autism Spectrum Disorder (ASD).[web:5][web:9] This project converts variant-level data (VCF) to sequence-level representations (FASTA), generates rich genomic embeddings using these pretrained models, and builds transformer-based classifiers to distinguish individuals with social communication problems related to ASD from controls, aiming to support earlier, scalable intervention beyond traditional ADOS/ADI assessments.[web:5][web:9]
+Probing and fine-tuning large foundation LLMs—HyenaDNA/Hyena Transformers and Nucleotide Transformers—to model the genomics of social interaction in Autism Spectrum Disorder (ASD). This project converts variant-level data (VCF) to sequence-level representations (FASTA), generates rich genomic embeddings using these pretrained models, and builds transformer-based classifiers to distinguish individuals with social communication problems related to ASD from controls, aiming to support earlier, scalable intervention beyond traditional ADOS/ADI assessments.
 
 ---
 
 ## 🔍 Motivation
 
-Autism Spectrum Disorder is highly heterogeneous, involving both rare and common variants that shape social communication and interaction.[web:9] By learning representations directly from genomic sequences, large genomic LLMs such as HyenaDNA and Nucleotide Transformer can capture long-range regulatory and sequence context that may underlie social behavior phenotypes.[web:5][web:9] This repository explores whether these embeddings can predict individual-level social communication outcomes (e.g., SCQ-like measures) to complement or reduce reliance on time-consuming clinical instruments.[web:9]
+Autism Spectrum Disorder is highly heterogeneous, involving both rare and common variants that shape social communication and interaction.By learning representations directly from genomic sequences, large genomic LLMs such as HyenaDNA and Nucleotide Transformer can capture long-range regulatory and sequence context that may underlie social behavior phenotypes. This repository explores whether these embeddings can predict individual-level social communication outcomes (e.g., SCQ-like measures) to complement or reduce reliance on time-consuming clinical instruments.
 
 ---
 
 ## 🧠 Core Idea
 
 - Use **HyenaDNA / Hyena-based Transformers** for long-range genomic modeling (up to very long contexts at single-nucleotide resolution).[web:5]
-- Use **Nucleotide Transformer** models as large-scale foundation LLMs trained on human genomics and transcriptomics.[web:9]
+- Use **Nucleotide Transformer** models as large-scale foundation LLMs trained on human genomics and transcriptomics.
 - Generate embeddings from these models for each individual’s genomic data and train downstream transformer classifiers for:
   - ASD vs. non-ASD (where available)
   - Social communication impairment vs. typical social communication (SCQ-like labels or related phenotypes)

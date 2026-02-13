@@ -1,0 +1,21 @@
+# Core language and CLI
+argparse
+logging
+
+# Numerical and data handling
+numpy>=1.21
+pandas>=1.3
+
+# Genomics I/O
+pysam>=0.21
+
+# Parallelism and progress bars
+tqdm>=4.64
+
+# PyTorch + Transformers
+torch>=2.0
+transformers>=4.36
+
+# Arrow / Parquet storage
+pyarrow>=14.0
+

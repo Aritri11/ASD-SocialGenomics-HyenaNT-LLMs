@@ -12,7 +12,7 @@ Autism Spectrum Disorder is highly heterogeneous, involving both rare and common
 
 ## 🧠 Core Idea
 
-- Use **HyenaDNA / Hyena-based Transformers** for long-range genomic modeling (up to very long contexts at single-nucleotide resolution).[web:5]
+- Use **HyenaDNA / Hyena-based Transformers** for long-range genomic modeling (up to very long contexts at single-nucleotide resolution).
 - Use **Nucleotide Transformer** models as large-scale foundation LLMs trained on human genomics and transcriptomics.
 - Generate embeddings from these models for each individual’s genomic data and train downstream transformer classifiers for:
   - ASD vs. non-ASD (where available)
